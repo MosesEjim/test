@@ -1,0 +1,164 @@
+@media only screen and (max-width: 768px) {
+    #first{
+        width: 100px;
+        height: 100px;
+    }
+    #second{
+        width: 100px;
+        height: 100px;
+    }
+    #third{
+        width: 100px;
+        height: 100px;
+    }
+    
+   #bottomtext{
+       font-size: 35px;
+   }
+}
+@media only screen and (max-width: 520px) {
+    #imageContainer{
+        
+        left: 18%;
+    }
+    #container{
+        width: 530px;
+    }
+    #bottomtext{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+ 
+
+    #first{
+        width: 70px;
+        height: 70px;
+    }
+    #second{
+        width: 70px;
+        height: 70px;
+    }
+    #third{
+        width: 70px;
+        height: 70px;
+    }
+    #container{
+        width: 290px;
+        height: 520px;
+        
+    }
+    #imageContainer{
+        left: 5%;
+        width: 530px;
+        grid-template-columns: 0.15fr 0.15fr 0.15fr;
+        
+    }
+
+    #bottomtext{
+        font-size: 25px;
+    }
+    #text-container{
+        left: 10%;
+    }
+    
+} 
+@media only screen and (max-width: 396px) {
+ 
+    #imageContainer{
+        left: 8%;
+        width: 530px;
+       
+        
+    }
+
+    #bottomtext{
+        font-size: 29px;
+    }
+} 
+   
+    
+    
+
+
+
+.container{
+    margin-top: 0px;
+    width: 100%;
+    height: 800px;
+    background-image: url(Images/africanbag.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.tint{
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.brand-name{
+    color: white;
+    position: relative;
+    font-size: 60px;
+    font-family: Cambria;
+    left: 30%;
+    
+    
+}
+
+
+    
+
+.images-container{
+    position: relative;
+    left: 30%;
+    
+    padding-top: 15%;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    grid-gap: 0px 0em;
+}
+.round-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform .2s
+}
+.round-image:hover {
+    transform: scale(1.5); 
+  }
+.title{
+    color: white;
+    position: relative;
+    left: 23%;
+}
+.bottom-text{
+    position: relative;
+    left: 30%;
+    top: 15%;
+}
+
+.bottom-text h2{
+    font-size: 50px;
+    color:rgb(243, 122, 9);
+    
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+  
+  
